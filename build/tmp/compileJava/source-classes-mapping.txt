@@ -1,34 +1,22 @@
-ua/nure/second/Memory.java
- ua.nure.second.Memory
 ua/nure/second/implOfCommand/NextCell.java
  ua.nure.second.implOfCommand.NextCell
-ua/nure/second/main/Main.java
- ua.nure.second.main.Main
-ua/nure/second/implOfCommand/Minus.java
- ua.nure.second.implOfCommand.Minus
-ua/nure/second/strategy/EndLoopSymbol.java
- ua.nure.second.strategy.EndLoopSymbol
-ua/nure/second/strategy/StandardSymbol.java
- ua.nure.second.strategy.StandardSymbol
-ua/nure/second/allCommand/Symbols.java
- ua.nure.second.allCommand.Symbols
-ua/nure/second/implOfCommand/Print.java
- ua.nure.second.implOfCommand.Print
 ua/nure/second/implOfCommand/PreviousCell.java
  ua.nure.second.implOfCommand.PreviousCell
+ua/nure/second/implOfCommand/Loop.java
+ ua.nure.second.implOfCommand.Loop
+ua/nure/second/implOfCommand/Minus.java
+ ua.nure.second.implOfCommand.Minus
 ua/nure/second/implOfCommand/Command.java
  ua.nure.second.implOfCommand.Command
 ua/nure/second/implOfCommand/Plus.java
  ua.nure.second.implOfCommand.Plus
-ua/nure/second/main/Executor.java
- ua.nure.second.main.Executor
-ua/nure/second/main/Parser.java
- ua.nure.second.main.Parser
-ua/nure/second/strategy/StartLoopSymbol.java
- ua.nure.second.strategy.StartLoopSymbol
-ua/nure/second/strategy/SymbolStrategy.java
- ua.nure.second.strategy.SymbolStrategy
+ua/nure/second/Memory.java
+ ua.nure.second.Memory
+ua/nure/second/implOfCommand/Print.java
+ ua.nure.second.implOfCommand.Print
 ua/nure/second/allCommand/CommandList.java
  ua.nure.second.allCommand.CommandList
-ua/nure/second/implOfCommand/Loop.java
- ua.nure.second.implOfCommand.Loop
+ua/nure/second/main/Main.java
+ ua.nure.second.main.Main
+ua/nure/second/main/Parser.java
+ ua.nure.second.main.Parser

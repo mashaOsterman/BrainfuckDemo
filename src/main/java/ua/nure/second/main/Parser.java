@@ -1,28 +1,27 @@
 package ua.nure.second.main;
 
 
+import ua.nure.second.allCommand.CommandList;
 import ua.nure.second.implOfCommand.Command;
-import ua.nure.second.allCommand.Symbols;
 
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Stack;
+
+import java.util.*;
 
 public class Parser {
-    private final Symbols symbols;
 
-    public Parser(Symbols symbols) {
-        this.symbols = symbols;
+    private CommandList commandList;
+    public Parser(CommandList commandList) {
+
+        this.commandList = commandList;
     }
 
     public List<Command> parse(String inputData) throws NoSuchMethodException {
-        Stack<List<Command>> commandStack = new Stack<>();
+        Deque<List<Command>> commandStack = new ArrayDeque<>();
 
         commandStack.push(new LinkedList<>());
         String[] symbols2 = inputData.split("");
         for (String symbol : symbols2) {
-            symbols.getSymbolStrategy(symbol).execute(commandStack);
+            commandList.run(symbol, commandStack);
         }
         return commandStack.pop();
     }
