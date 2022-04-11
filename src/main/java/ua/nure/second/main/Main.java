@@ -1,21 +1,23 @@
 package ua.nure.second.main;
 
 
+import ua.nure.second.implOfCommand.Command;
 
-import ua.nure.second.Memory;
-import ua.nure.second.allCommand.CommandList;
+import java.util.List;
 
 
 public class Main {
 
     public static void main(String[] args) throws NoSuchMethodException {
-        String str = "++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++" +
+        String brainfuckProgram = "++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++" +
                 ".>+.+++++++..+++.>++.<<+++++++++++++++.>.+++." +
                 "------.--------.>+.>." ;
+        List<Command> compiledCommands = new BrainfuckCompiler().compile(brainfuckProgram);
+        new BrainfuckCommandsExecutor().execute(compiledCommands);
 
-        Memory memory = new Memory();
-        CommandList commandList = new CommandList();
-        Parser parser = new Parser(commandList);
-        parser.parse(str).forEach(command -> command.execute(memory));
+
+
+
+
     }
 }

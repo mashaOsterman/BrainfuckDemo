@@ -1,4 +1,2 @@
-ua/nure/second/allCommand/CommandListTest.java
- ua.nure.second.allCommand.CommandListTest
 ua/nure/second/main/MainTest.java
  ua.nure.second.main.MainTest

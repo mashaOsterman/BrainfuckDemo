@@ -14,9 +14,10 @@ ua/nure/second/Memory.java
  ua.nure.second.Memory
 ua/nure/second/implOfCommand/Print.java
  ua.nure.second.implOfCommand.Print
-ua/nure/second/allCommand/CommandList.java
- ua.nure.second.allCommand.CommandList
+ua/nure/second/main/BrainfuckCompiler.java
+ ua.nure.second.main.BrainfuckCompiler
+ ua.nure.second.main.BrainfuckCompiler$InstructionProcessor
 ua/nure/second/main/Main.java
  ua.nure.second.main.Main
-ua/nure/second/main/Parser.java
- ua.nure.second.main.Parser
+ua/nure/second/main/BrainfuckCommandsExecutor.java
+ ua.nure.second.main.BrainfuckCommandsExecutor
